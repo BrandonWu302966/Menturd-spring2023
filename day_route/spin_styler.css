@@ -132,3 +132,61 @@
       right: -40px;
     }
   }
+
+.social1{
+  position: fixed;
+  bottom: 5%;
+  right: 80%;
+}
+
+.social2{
+  position: fixed;
+  bottom: 5%;
+  right: 60%;
+}
+.social3{
+  position: fixed;
+  bottom: 5%;
+  right: 40%;
+  font-family: "Monaco", monospace;
+  font-size: 20px;
+}
+
+.social4{
+  position: fixed;
+  bottom: 5%;
+  right: 20%;
+  font-family: "Monaco", monospace;
+  font-size: 20px;
+}
+
+.footer {
+  right: 0%;
+  left: 0%;
+  height: 120px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.907);
+  width: 100%;
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color:rgb(0, 0, 0)
+}
+
+a:visited {
+  text-decoration: none;
+  color:rgb(0, 0, 0)
+}
+
+a:hover {
+  text-decoration: underline;
+  color:rgb(0, 0, 0)
+}
+
+a:active {
+  text-decoration: underline;
+  color:rgb(0, 0, 0)
+}
