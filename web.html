@@ -4,20 +4,33 @@
     <title>CodeGains</title>
     <link rel="icon" href="static/Codegain.jpg" type="image/CodeGains-icon"/>
     <link href="styler.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="mover.js"></script>
 </head>
+<video autoplay muted loop id="myVideo1">
+    <source src="static/vid.mp4" type="video/mp4">
+</video>
+<video autoplay muted loop id="myVideo2">
+    <source src="static/vid2.mp4" type="video/mp4">
+</video>
 <body id = "body">
+    <div class="box">
+    </div>
+    <div class = "content">
     <h1>CodeGains</h1>
-    <h2>Gyming Resources</h2>
-    <button type="button" onclick="location.href='gym_routes/chest/chest.html'">Chest</button>
-    <button type="button" onclick="location.href='gym_routes/legs/legs.html'">Legs</button>
-    <button type="button" onclick="location.href='gym_routes/back/back.html'">Back</button>
-    <button type="button" onclick="location.href='gym_routes/arms/arms.html'">Arms</button>
-    <button type="button" onclick="location.href='gym_routes/abs/abs.html'">Abdomen</button>
-    <button type="button" onclick="location.href='gym_routes/shoulders/shoulders.html'">Shoulders</button>
+    <h2>Workout Resources</h2>
+    <div class = 'buttons'>
+    <button class="button1" onclick="location.href='gym_routes/chest/chest.html'">Chest</button>
+    <button class="button2" onclick="location.href='gym_routes/legs/legs.html'">Legs</button>
+    <button class="button3" onclick="location.href='gym_routes/back/back.html'">Back</button>
+    <button class="button4" onclick="location.href='gym_routes/arms/arms.html'">Arms</button>
+    <button class="button5" onclick="location.href='gym_routes/abs/abs.html'">Abdomen</button>
+    <button class="button6" onclick="location.href='gym_routes/shoulders/shoulders.html'">Shoulders</button>
     <br>
-    <button type="button" onclick="location.href='day_route/spin.html'">What Day of the Week is it?</button>
+    <button class="spinner-button" onclick="location.href='day_route/spin.html'">Day of the Week</button>
     <br>
+    </div>
+
 <!--
     <h2>Meal Preparation Resources</h2>
     <button type="button" onclick="location.href='meal_routes/cutting/cutting.html'">Cutting</button>
@@ -27,25 +40,26 @@
     <h2>How we do it</h2>
     <button type="button" onclick="location.href='person_routes/brandon/brandon.html'">Brandon's Cutting Journey</button>
 --> 
+</div>
 </body>
-<footer>
-    <div id = "footer social">
+<footer class = "footer">
+    <div class = "social1">
         <a class="home link" href = "web.html">
             <img src="/static/Codegain.jpg" width="70" height="50" alt="Codebase" class="web-footer-social-logo">
         </a>
     </div>
-    <div id = "footer social">
+    <div class = "social2">
         <a class="social link" href = "https://codebase.berkeley.edu/">
             <img src="/static/codebase.png" width="120" height="30" alt="Codebase" class="web-footer-social-logo">
         </a>
     </div>
-    <div id = "footer social">
+    <div class = "social3">
         <a class="social link" href = "https://www.facebook.com/brandon.wu.94">
             <img src="/static/facebook.png" width="20" height="20" alt="Facebook" class="web-footer-social-logo">
             facebook
         </a>
     </div>
-    <div id = "footer social">
+    <div class = "social4">
         <a class="social_link" href = "https://www.instagram.com/brandonwuuu/">
             <img src="/static/instagram.png" width="20" height="20" alt="Instagram" class="web-footer-social-logo">
             instagram
