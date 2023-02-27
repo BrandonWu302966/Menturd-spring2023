@@ -12,8 +12,8 @@
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background: rgb(60, 60, 242);
-    background: linear-gradient(90deg, rgba(60, 60, 242, 1) 0%, rgba(98, 245, 230, 1) 52%, rgba(60, 60, 242, 1) 100%);
+    background: rgb(155, 155, 178);
+    background: linear-gradient(90deg, rgb(142, 142, 176) 0%, rgb(54, 70, 69) 52%, rgb(30, 30, 49) 100%);
     background-size: cover;
   }
 
@@ -51,27 +51,31 @@
   }
   .span1{
     clip-path: polygon(0 92%, 100% 50%, 0 8%);
-    background-color: #fffb00;
+    background-color: #3e34cc;
     top: 120px;
     left: 0;
+    color: white;
   }
   .span2{
     clip-path: polygon(100% 92%, 0 50%, 100% 8%);
-    background-color: #ff4fa1;
+    background-color: #d73c3c;
     top: 120px;
     right: 0;
+    color: white;
   }
   .span3{
     clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-    background-color: #ffaa00;
+    background-color: black;
     bottom: 0;
     left: 120px;
+    color: white;
   }
   .span4{
     clip-path: polygon(50% 100%, 92% 0, 8% 0);
-    background-color: #22ff00;
+    background-color: #4b1c4a;
     top: 0;
     left: 120px;
+    color: white;
   }
   .box1 .span3 b{
     transform: translate(-50%, -50%) rotate(-270deg);
@@ -111,7 +115,7 @@
     height: 75px;
     border-radius: 50%;
     border: 4px solid #fff;
-    background-color: #001aff;
+    background-color: #090a13;
     color: #fff;
     box-shadow: 0 5px 20px #000;
     font-weight: bold;
